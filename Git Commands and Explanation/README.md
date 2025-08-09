@@ -1,3 +1,5 @@
+**Git Commands**
+
 → **git init .**
 
 It will Initializes the empty git local repository in current Directory/folder.
