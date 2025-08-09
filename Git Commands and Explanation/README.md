@@ -18,35 +18,38 @@ Eg. Command:- git commit -m "updated variables files"
 
 This command will shows the status of our work like how many files are in working area, staging area and how many files are to be commit to local repository.
 
-→ git config --global username “<git global username>”
+**→ git config --global username “<git global username>”**
+
 This command is used to configure our global user name with git hub username globally.
 
-→ git config — global email “<git global mail address>”
+**→ git config --global email “<git global mail address>”**
+
 This command is used to configure user mail with git hub Mail ID of global mail configuration.
-→ git remote add <alias name> “<git repo URL>”
+
+**→ git remote add <alias name> “<git repo URL>”**
+
 This command is used to add our remote repository details with respect our local repository.
 alias name = we can take any alias name,
-
 git repo URL = our remote remote URL.
 
-→ git push <alias name>
+**→ git push <alias name> <branch name>**
 
-It is used to push our local repository changes to remote repository.
+This Command is used to push our local repository changes to remote repository.
 Syntax:- git push <alias name> <branch name> Pushes the specfic branch name
 
-git push <alias name> -- all
+**git push <alias name> -- all**
 
 It will pushes the all branches to remote repository.
 
-→ git remote -v
+**→ git remote -v**
 
 To know our local repository is pointed to which Remote Repository.
 
-→ git commit -a -m “<commit message>”
+**→ git commit -a -m “<commit message>”**
 This command is used to commit our changes to local repository. with touching the staging area.
 Note: It will works only for the updated files. not the newly created files in the working area.
 
-→ git clean
+**→ git clean**
 It will cleans the working area.
 Note: It will deletes only the newly created files only but not the updated files.
 
