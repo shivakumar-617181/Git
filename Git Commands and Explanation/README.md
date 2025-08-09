@@ -93,6 +93,9 @@ It is used to merge the branch. With Currently Checkedout Branch.
 
 It is used to differentiate between the branches
 
+**git fork**
+
+Git fork is Refers to a Personal Copy of an Existing Repository. This Copy is Created Under Our own account, Making It An Independent Version Of The Original Repository.
 **→ git branch -d <branch name>**
 
 It is used to delete the branch
