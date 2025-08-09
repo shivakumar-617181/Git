@@ -1,15 +1,20 @@
 → **git init .**
+
 It will Initializes the empty git local repository in current Directory/folder.
 
 **→ git add .**
+
 Adds all changes (new files, modified files, and deleted files) in the current directory and its subdirectories to the staging area from Working Area.
 
 Eg: git add *.java → It will adds only java files to staging area in the present working area.
 
-→ git Commit
-This Command is used to move the files from staging area to local repository.
+**→ git Commit**
 
-→ git status
+This Command is used to move the files from staging area to local repository.
+It is also includes the commit message for the identification purpose.
+Eg. Command:- git commit -m "updated variables files"
+
+→ **git status**
 
 This command will shows the status of our work like how many files are in working area, staging area and how many files are to be commit to local repository.
 
